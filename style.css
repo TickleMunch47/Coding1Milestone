@@ -1,0 +1,48 @@
+.li{
+    color: red;
+    background-color: beige
+}
+ul{
+    color:beige
+}
+
+body{
+    background-color: sienna;
+    text-align: center;
+}
+h1 {
+    color:red;
+}
+h3 {
+    color:red;
+    background-color:beige;                                
+}
+#header{
+    color:red;
+    font-size:40px;
+    font-family:fantasy;
+}
+.row{
+    color:darkslategray;
+    
+}
+table{
+    background-color:navajowhite;
+    border: 2px solid grey
+}
+#th{
+    border: 2px double darkgrey
+}
+#td{
+    border: 2px inset darkgrey
+}
+@keyframes headscolorchange{
+    from{color:red}
+    to{color:skyblue}
+}
+.hed:hover{
+    animation: headscolorchange 2s forward;
+}
+img.phoautograph:hover{
+    font-display:asdasd;
+}
